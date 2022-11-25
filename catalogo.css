@@ -1,0 +1,226 @@
+body{
+  background-color: black;
+}
+
+
+
+/**HEADER**/
+header{
+  height: auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  box-sizing: border-box;
+  height: 100px;
+  transition: 0.5s;
+  background-color: #000000;
+}
+.logo{
+  height: 100%;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.item{
+  margin: 0 1rem;
+  font-weight: 600;
+  cursor:pointer;
+  transition: 00.5s;
+  color:#f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cta{
+  padding: 10px 24px;
+  border-radius: 30px;
+  background-color: var(--main-color);
+  color: #ea00ff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.cta:hover{
+  color: #000000;
+  background-color: #08d61d;
+
+}
+
+.item:hover{
+  color:rgb(11, 225, 61);
+}
+
+
+/** Tarjetas Restaurante **/
+
+h2{
+  color: #ff0000;
+}
+
+.title{
+  font: size 1px;
+  margin-top: 10%;
+  color: red;
+  text-align:center;
+  font-family: cursive;
+}
+.wrap-title-section{
+  margin-left: 3rem;
+}
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .column-2.carta{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  
+  .plato-carta{
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    color: #f2f2f2;
+    border-radius: 6px;
+  }
+  
+  .img-plato-carta{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+  }
+  
+  .img-plato-carta img{
+    max-width: 100px;
+    max-height: 75px;
+  }
+  
+  .title-plato-carta{
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 60%;
+    padding: 0 1rem;
+  }
+  
+  .precio-plato-carta{
+    display: flex;
+    flex-basis: 15%;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+  /*:::::Pie de Pagina*/
+  .pie-pagina{
+      margin-top: 10rem;
+      width: 100%;
+      background-color: rgb(17,17,18);
+  }
+  .pie-pagina .grupo-1{
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap:50px;
+      padding: 45px 0px;
+  }
+  .pie-pagina .grupo-1 .box figure{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .pie-pagina .grupo-1 .box figure img{
+      width: 250px;
+  }
+  .pie-pagina .grupo-1 .box h2{
+      color: #fff;
+      margin-bottom: 25px;
+      font-size: 20px;
+  }
+  .pie-pagina .grupo-1 .box p{
+      color: #efefef;
+      margin-bottom: 10px;
+  }
+  .pie-pagina .grupo-1 .red-social a{
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: #fff;
+      margin-right: 10px;
+      background-color: #0d2033;
+      text-align: center;
+      transition: all 300ms ease;
+  }
+  .pie-pagina .grupo-1 .red-social a:hover{
+      color: aqua;
+  }
+  .pie-pagina .grupo-2{
+      background-color: #000000;
+      padding: 15px 10px;
+      text-align: center;
+      color: #fff;
+  }
+  .pie-pagina .grupo-2 small{
+      font-size: 15px;
+  }
+
+  @media screen and (max-width:450) {
+    body{
+        background-color: #880f0f;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
+    header{
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    margin: 10px;
+    padding: 0px;
+    }
+    
+    footer{
+        justify-content: center;
+        align-items:center;
+        flex-direction:column;
+        margin: 10px;
+        padding: 0px;
+    }
+    figure{
+      width: 20%;
+      height: 20%;
+    }
+
+    h1{
+      font-size: 6rem;
+    }
+    
+  }

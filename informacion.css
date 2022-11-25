@@ -1,0 +1,159 @@
+body{
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    background-color: #E6E6E6;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/**HEADER**/
+header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 100px;
+    transition: 0.5s;
+    background-color: #000000;
+}
+
+.logo{
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.item{
+    margin: 0 1rem;
+    font-weight: 600;
+    cursor:pointer;
+    transition: 00.5s;
+    color:#f2f2f2;
+    text-decoration: none;
+}
+
+.cta{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color:#08d61d;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    margin: 200px;
+    text-decoration: none;
+}
+
+.cta:hover{
+    color: #f2f2f2;
+    background-color: #d60891;
+}
+
+.item:hover{
+    color:rgb(11, 225, 61);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #000000;
+}
+
+.about-main{
+    margin:0.5rem;
+    margin-left: 3rem;
+	background:#000000;
+    color:#E6E6E6;
+}
+.pad-top-100{
+    padding-top: 90px;
+}
+.pad-bottom-100{
+	padding-bottom: 90px;
+}
+
+.pad-top-70{
+	padding-top: 70px;
+}
+.pad-bottom-70{
+	padding-bottom: 70px;
+}
+
+.block-title{
+	font-size:52px;
+	font-family: 'nautilus_pompiliusregular';
+	font-weight: bold;
+}
+
+.about-images {
+    text-align: center;
+    position: relative;
+}
+
+.about-main h3{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+	font-size:20px;
+}
+
+.left-btn{
+	padding-top:10px;
+}
+
+
+.about-images img {
+    border: 10px solid #f1f1f1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+}
+
+.about-images img {
+    border: 10px solid #f1f1f1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+	max-width: 100%;
+}
+
+.about-inset {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
